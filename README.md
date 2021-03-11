@@ -1,4 +1,4 @@
-# dolphin
+# pydolphin
 
 a convenient solution to heroku web apps / APIs.
 
@@ -38,8 +38,9 @@ app.run(host='0.0.0.0', port=PORT)
 # note.
 
 => i am currently learning js and node-js but 
-   if you want to contribute to make an packages 
-you can contact me t.me/midnightmadwalk.
+   if you want to contribute to make dolphin
+   packages for them, 
+   you can contact me t.me/midnightmadwalk.
 => use it in any python web framework and
    report bug or contribute. 
 
