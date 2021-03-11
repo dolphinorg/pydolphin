@@ -6,11 +6,11 @@ a convenient solution to heroku web apps / APIs.
 # installation.
 
 ```text
-pip3 install dolphin
+pip3 install pydolphin
 
 or 
 
-pip3 install --no-cache git+https://github.com/dolphinorg/dolphin.git
+pip3 install --no-cache git+https://github.com/dolphinorg/pydolphin.git
 ```
 
 # basic example.
@@ -18,7 +18,7 @@ pip3 install --no-cache git+https://github.com/dolphinorg/dolphin.git
 
 import os
 from flask import Flask
-from dolphin import dolphin
+from pydolphin import dolphin
 
 PORT = int(os.environ.get("PORT", 6969))
 
