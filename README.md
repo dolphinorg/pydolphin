@@ -34,6 +34,16 @@ def index():
 
 app.run(host='0.0.0.0', port=PORT)
 ```
+# alternatively
+
+you can make a folder with `__init__.py`
+with
+
+``py
+from pydolphin import dolphin
+
+dolphin.swim()
+``
 
 # note.
 
