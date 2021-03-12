@@ -1,10 +1,10 @@
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from apscheduler.schedulers.background import BackgroundScheduler
 
-scheduler = AsyncIOScheduler()
+scheduler = BackgroundScheduler()
 
 class dolphin:
     def add_job(ping, seconds=600):
         scheduler.add_job(ping, "interval", seconds=seconds)
-    async def swim():
+    def swim():
         scheduler.start()
         print("swimming...")
