@@ -39,11 +39,11 @@ app.run(host='0.0.0.0', port=PORT)
 you can make a folder with `__init__.py`
 with
 
-``py
+```py
 from pydolphin import dolphin
 
 dolphin.swim()
-``
+```
 
 # note.
 
