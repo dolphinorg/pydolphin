@@ -1,6 +1,6 @@
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from apscheduler.schedulers.background import BackgroundScheduler
 
-scheduler = AsyncIOScheduler()
+scheduler = BackgroundScheduler()
 
 class dolphin:
     def add_job(ping, seconds=600):
