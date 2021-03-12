@@ -3,7 +3,6 @@ from flask import Flask
 from pydolphin import dolphin
 
 
-
 app = Flask(__name__)
 
 @app.before_first_request

@@ -6,7 +6,7 @@ with open("README.md", "r") as setup:
 
 setuptools.setup(
     name="pydolphin",
-    version="0.1.1",
+    version="0.1.2",
     author="Dhruv Maaniya (@midnightmadwalk)",
     author_email="midnightmadwalk@gmail.com",
     description="a convenient solution to heroku web apps / APIs.",
